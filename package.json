@@ -2,14 +2,17 @@
   "name": "vue-calendar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://georgpreissl.github.io/vue-calendar",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.4",
     "firebase": "^7.14.1",
+    "gh-pages": "^2.2.0",
     "vue": "^2.6.11",
     "vue-textarea-autosize": "^1.1.1",
     "vuetify": "^2.2.11"
